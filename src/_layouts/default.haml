@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title Heartlab
+    = stylesheets
+  %body
+    #global-container
+      #page-container
+        = yield
+    
+    = javascripts 'jquery-1.6.4'
+    = javascripts 'support/underscore', 'support/backbone'
+
+    = javascripts 'app'
