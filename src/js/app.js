@@ -10,9 +10,25 @@
         }
       );
     },
-    
+
+    setup_tweetbox: function(){
+      twttr.anywhere(function (T) {
+
+        T("#tweet_box").tweetBox({
+          label: "Use the form below to tweet what your heart sounds like.<link href='http://localhost:3000/css/tweetbox.css' rel='stylesheet' />",
+          height: 100,
+          width: 400,
+          defaultContent: ""
+        });
+
+      });
+
+
+    },
+
     initialize: function () {
       this.setup_navigation();
+      this.setup_tweetbox();
     }
   });
 
