@@ -1,2 +1,11 @@
-#navigation{position: fixed; top: 0; right: 0;}
+#navigation{
+  position: fixed; top: 0; right: 0;
+  background: #111;
+  width: 180px;
+  color: #fff;
+  ul{display: none}
+  li{list-style: none;}
+  a{color: #fff;}
+  &:hover ul{display: block;}
+}
 .chapter{background: #ccc; margin-bottom: 20px; min-height: 1000px;}
