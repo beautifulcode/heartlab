@@ -3,9 +3,18 @@
 #navigation
   %h2 Chapters
   %ul
-    %li= link_to "Chapter 1", "#chapter1"
-    %li= link_to "Chapter 2", "#chapter2"
-    %li= link_to "Chapter 3", "#chapter3"
+    %li
+      %h3
+        %a{:href => "#chapter1"} Chapter One / Experience
+      %p experience heartlab's latest creation
+    %li
+      %h3
+        %a{:href => "#chapter2"} Chapter Two Show Information
+      %p show details and Artist Statement Anita Levesque & Bradley Smith
+    %li
+      %h3
+        %a{:href => "#chapter3"} Chapter Three / Curatorial Statement
+      %p Curatorial statement by Touchstones Nelson co-curator Jessica Demers
 
 #chapter0.chapter
   .tweet
@@ -22,9 +31,9 @@
     
 
 #chapter1.chapter
-  %h1 Chapter 1
+  %h1 What does your heart sound like?
 
-  %h2 What does your heart sound like?
+  %h2 Use the form below to tweet what your heart sounds like. 
 
   #tweet_box
 
@@ -33,5 +42,5 @@
   %h3 Show Information
 
 #chapter3.chapter
-  %h1 Chapter 3
+  %h1 Chapter Three
   %h3 Credential Statement
