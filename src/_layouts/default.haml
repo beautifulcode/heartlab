@@ -12,4 +12,13 @@
     = javascripts 'support/underscore', 'support/backbone'
 
     = javascripts "http://platform.twitter.com/anywhere.js?id=YOUR_API_KEY&v=1"
+    :javascript
+      var tweet_elems = $('.tweet');
+      function twitterCallback(data){
+        _.each(data, function(tweet,i){
+          tweet_elems[i].innerHTML = tweet.text;
+        });
+      }
+    = javascripts "http://twitter.com/statuses/user_timeline/aplus.json?callback=twitterCallback&count=4"
+    
     = javascripts 'app'
