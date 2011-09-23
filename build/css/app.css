@@ -140,3 +140,40 @@ body {
 #tweet-box-header {
   display: none;
 }
+
+/* line 51 */
+.parallax_elem {
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+/* line 52 */
+#bluestars {
+  background: url(/images/bluestars.png) top left no-repeat;
+}
+
+/* line 53 */
+#clipped_letters {
+  background: url(/images/clipped_letters.png) top left no-repeat;
+}
+
+/* line 54 */
+#clipped_stars {
+  background: url(/images/clipped_stars.png) top left no-repeat;
+}
+
+/* line 55 */
+#origami_lines {
+  background: url(/images/origami_lines.png) top left no-repeat;
+}
+
+/* line 56 */
+#stitched_book_1 {
+  background: url(/images/stitched_book_1.png) top left no-repeat;
+}
+
+/* line 57 */
+#stitched_book_2 {
+  background: url(/images/stitched_book_2.png) top left no-repeat;
+}
