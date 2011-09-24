@@ -1,3 +1,5 @@
+.grid_1 {width: 53px;}.grid_2 {width: 128px;}.grid_3 {width: 203px;}.grid_4 {width: 278px;}.grid_5 {width: 353px;}.grid_6 {width: 428px;}.grid_7 {width: 503px;}.grid_8 {width: 578px;}.grid_9 {width: 653px;}.grid_10 {width: 728px;}.grid_11 {width: 803px;}.grid_12 {width: 878px;}.grid_13 {width: 953px;}.grid_14 {width: 1028px;}.grid_15 {width: 1103px;}.grid_16 {width: 1178px;}.column {margin: 0 22px 0 0px; overflow: hidden; float: left; display: inline;}.row {width: 1200px; margin: 0 auto; overflow: hidden;}.row .row {margin: 0 -22px 0 -0px; width: auto; display: inline-block;}
+
 @font-face {
     font-family: 'LeagueGothicRegular';
     src: url('/fonts/League_Gothic-webfont.eot');
@@ -10,7 +12,7 @@
 
 }
 
-.chapter{background: #ccc; margin-bottom: 20px; min-height: 1000px; padding-top: 5px;}
+.chapter{background: #ccc; margin-bottom: 20px; min-height: 1000px; clear: both; padding-top: 5px;}
 #chapter0{background: url(/images/chapter_0.jpg) top center no-repeat;}
 #chapter1{background: url(/images/chapter_1.jpg) top center  no-repeat;}
 #chapter2{background: url(/images/chapter_2.jpg) top center  no-repeat;}

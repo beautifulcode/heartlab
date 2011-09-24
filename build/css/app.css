@@ -1,3 +1,105 @@
+/* line 1 */
+.grid_1 {
+  width: 53px;
+}
+
+/* line 1 */
+.grid_2 {
+  width: 128px;
+}
+
+/* line 1 */
+.grid_3 {
+  width: 203px;
+}
+
+/* line 1 */
+.grid_4 {
+  width: 278px;
+}
+
+/* line 1 */
+.grid_5 {
+  width: 353px;
+}
+
+/* line 1 */
+.grid_6 {
+  width: 428px;
+}
+
+/* line 1 */
+.grid_7 {
+  width: 503px;
+}
+
+/* line 1 */
+.grid_8 {
+  width: 578px;
+}
+
+/* line 1 */
+.grid_9 {
+  width: 653px;
+}
+
+/* line 1 */
+.grid_10 {
+  width: 728px;
+}
+
+/* line 1 */
+.grid_11 {
+  width: 803px;
+}
+
+/* line 1 */
+.grid_12 {
+  width: 878px;
+}
+
+/* line 1 */
+.grid_13 {
+  width: 953px;
+}
+
+/* line 1 */
+.grid_14 {
+  width: 1028px;
+}
+
+/* line 1 */
+.grid_15 {
+  width: 1103px;
+}
+
+/* line 1 */
+.grid_16 {
+  width: 1178px;
+}
+
+/* line 1 */
+.column {
+  margin: 0 22px 0 0px;
+  overflow: hidden;
+  float: left;
+  display: inline;
+}
+
+/* line 1 */
+.row {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 1 */
+.row .row {
+  margin: 0 -22px 0 0px;
+  width: auto;
+  display: inline-block;
+}
+
 @font-face {
   font-family: 'LeagueGothicRegular';
   src: url("/fonts/League_Gothic-webfont.eot");
@@ -6,35 +108,36 @@
   font-style: normal;
 }
 
-/* line 13 */
+/* line 15 */
 .chapter {
   background: #ccc;
   margin-bottom: 20px;
   min-height: 1000px;
+  clear: both;
   padding-top: 5px;
 }
 
-/* line 14 */
+/* line 16 */
 #chapter0 {
   background: url(/images/chapter_0.jpg) top center no-repeat;
 }
 
-/* line 15 */
+/* line 17 */
 #chapter1 {
   background: url(/images/chapter_1.jpg) top center no-repeat;
 }
 
-/* line 16 */
+/* line 18 */
 #chapter2 {
   background: url(/images/chapter_2.jpg) top center no-repeat;
 }
 
-/* line 17 */
+/* line 19 */
 #chapter3 {
   background: url(/images/chapter_3.jpg) top center no-repeat;
 }
 
-/* line 19 */
+/* line 21 */
 #navigation {
   font: 30px/38px "LeagueGothicRegular", Arial, sans-serif;
   letter-spacing: 0;
@@ -47,55 +150,55 @@
   padding-right: 50px;
   color: #efefef;
 }
-/* line 27 */
+/* line 29 */
 #navigation h2 {
   font-size: 34px;
 }
-/* line 28 */
+/* line 30 */
 #navigation h2, #navigation h3 {
   text-transform: uppercase;
 }
-/* line 29 */
+/* line 31 */
 #navigation h3 {
   font: 18px/20px "LeagueGothicRegular", Arial, sans-serif;
   text-align: left;
   color: #efefef;
 }
-/* line 30 */
+/* line 32 */
 #navigation ul {
   display: none;
   margin: 0;
   padding: 0;
 }
-/* line 31 */
+/* line 33 */
 #navigation li {
   list-style: none;
 }
-/* line 32 */
+/* line 34 */
 #navigation .divider {
   width: 20px;
   height: 3px;
   background: #efefef;
   margin-top: 15px;
 }
-/* line 33 */
+/* line 35 */
 #navigation p {
   font: 12px/16px "Courier New", courier, sans-serif;
   width: 150px;
   color: #ccc;
   margin-bottom: 25px;
 }
-/* line 34 */
+/* line 36 */
 #navigation a {
   color: #efefef;
   text-decoration: none;
 }
-/* line 35 */
+/* line 37 */
 #navigation:hover ul {
   display: block;
 }
 
-/* line 39 */
+/* line 41 */
 h1 {
   text-align: center;
   font: 80px/80px "LeagueGothicRegular", Arial, sans-serif;
@@ -104,7 +207,7 @@ h1 {
   margin-bottom: 0;
 }
 
-/* line 40 */
+/* line 42 */
 h3 {
   font: 13px/28px "Courier New", Courier, sans-serif;
   letter-spacing: 0;
@@ -112,12 +215,12 @@ h3 {
   margin: 0;
 }
 
-/* line 41 */
+/* line 43 */
 body {
   font-family: "Courier New", Courier, sans-serif;
 }
 
-/* line 43 */
+/* line 45 */
 .tweet {
   width: 50%;
   font-size: 90px;
@@ -125,55 +228,55 @@ body {
   color: #fff;
 }
 
-/* line 44 */
+/* line 46 */
 .right {
   float: right;
 }
 
-/* line 46 */
+/* line 48 */
 #tweet_box {
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 47 */
+/* line 49 */
 #tweet-box-header {
   display: none;
 }
 
-/* line 51 */
+/* line 53 */
 .parallax_elem {
   display: block;
   width: 100%;
   height: 400px;
 }
 
-/* line 52 */
+/* line 54 */
 #bluestars {
   background: url(/images/bluestars.png) top left no-repeat;
 }
 
-/* line 53 */
+/* line 55 */
 #clipped_letters {
   background: url(/images/clipped_letters.png) top left no-repeat;
 }
 
-/* line 54 */
+/* line 56 */
 #clipped_stars {
   background: url(/images/clipped_stars.png) top left no-repeat;
 }
 
-/* line 55 */
+/* line 57 */
 #origami_lines {
   background: url(/images/origami_lines.png) top left no-repeat;
 }
 
-/* line 56 */
+/* line 58 */
 #stitched_book_1 {
   background: url(/images/stitched_book_1.png) top left no-repeat;
 }
 
-/* line 57 */
+/* line 59 */
 #stitched_book_2 {
   background: url(/images/stitched_book_2.png) top left no-repeat;
 }
