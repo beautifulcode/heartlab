@@ -1,84 +1,89 @@
 /* line 1 */
+body {
+  background: #E9EAE4;
+}
+
+/* line 2 */
 .grid_1 {
   width: 53px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_2 {
   width: 128px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_3 {
   width: 203px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_4 {
   width: 278px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_5 {
   width: 353px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_6 {
   width: 428px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_7 {
   width: 503px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_8 {
   width: 578px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_9 {
   width: 653px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_10 {
   width: 728px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_11 {
   width: 803px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_12 {
   width: 878px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_13 {
   width: 953px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_14 {
   width: 1028px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_15 {
   width: 1103px;
 }
 
-/* line 1 */
+/* line 2 */
 .grid_16 {
   width: 1178px;
 }
 
-/* line 1 */
+/* line 2 */
 .column {
   margin: 0 22px 0 0px;
   overflow: hidden;
@@ -86,18 +91,25 @@
   display: inline;
 }
 
-/* line 1 */
+/* line 2 */
 .row {
   width: 1200px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-/* line 1 */
+/* line 2 */
 .row .row {
   margin: 0 -22px 0 0px;
   width: auto;
   display: inline-block;
+}
+
+/* line 3 */
+.clear {
+  display: block;
+  clear: both;
+  height: 1px;
 }
 
 @font-face {
@@ -108,36 +120,131 @@
   font-style: normal;
 }
 
-/* line 15 */
+/* line 16 */
+#title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 140;
+  margin-left: 100px;
+  overflow: visible;
+}
+
+/* line 17 */
+h2.subtitle {
+  margin-bottom: 0;
+  line-height: 25px;
+}
+
+/* line 18 */
+h2.title {
+  color: #85BEC9;
+  margin: 15px 0 70px -15px;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 20px;
+}
+
+/* line 20 */
 .chapter {
-  background: #ccc;
+  color: #333;
   margin-bottom: 20px;
   min-height: 1000px;
   clear: both;
   padding-top: 5px;
 }
 
-/* line 16 */
+/* line 21 */
 #chapter0 {
-  background: url(/images/chapter_0.jpg) top center no-repeat;
+  background: #e9eae4 url(/images/chapter_0_bg.jpg) bottom left;
+  position: relative;
+  padding-top: 50px;
+  overflow: hidden;
 }
 
-/* line 17 */
+/* line 27 */
 #chapter1 {
   background: url(/images/chapter_1.jpg) top center no-repeat;
 }
+/* line 29 */
+#chapter1 h2 {
+  text-align: center;
+  font-size: 12px;
+}
 
-/* line 18 */
+/* line 31 */
 #chapter2 {
-  background: url(/images/chapter_2.jpg) top center no-repeat;
+  background: url(/images/chapter_2_bg.gif) top center no-repeat;
+}
+/* line 33 */
+#chapter2 .left_side {
+  margin-top: 39px;
+  margin-left: 130px;
+  overflow: visible;
+}
+/* line 34 */
+#chapter2 .right_side {
+  margin-top: 80px;
+}
+/* line 35 */
+#chapter2 h1 {
+  margin-top: 50px;
+}
+/* line 36 */
+#chapter2 p em {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
 }
 
-/* line 19 */
+/* line 39 */
+#chapter_2_image_holder {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* line 41 */
 #chapter3 {
-  background: url(/images/chapter_3.jpg) top center no-repeat;
+  background: url(/images/chapter_3_bg.jpg) top center no-repeat;
+}
+/* line 43 */
+#chapter3 h1 {
+  margin-top: 45px;
+}
+/* line 44 */
+#chapter3 #statement_1 {
+  margin-bottom: 256px;
+  background: #fff;
+  display: block;
+  clear: both;
+  opacity: 0.8;
+  margin-left: 130px;
+  margin-top: 100px;
+  display: none;
+}
+/* line 45 */
+#chapter3 #statement_2 {
+  margin: 100px 0 0 100px;
+}
+/* line 46 */
+#chapter3 #statement_3 {
+  margin: 0 0 0 50px;
+}
+/* line 47 */
+#chapter3 #statement_4 {
+  margin: 0 0 0 100px;
 }
 
-/* line 21 */
+/* line 50 */
+#touchstones {
+  position: fixed;
+  top: 100px;
+  right: 0;
+  display: block;
+  z-index: 50;
+}
+
+/* line 52 */
 #navigation {
   font: 30px/38px "LeagueGothicRegular", Arial, sans-serif;
   letter-spacing: 0;
@@ -145,69 +252,71 @@
   top: 0;
   right: 0;
   background: #262825;
-  width: 180px;
+  z-index: 120;
+  width: 130px;
+  margin-right: 155px;
   padding-left: 20px;
   padding-right: 50px;
   color: #efefef;
 }
-/* line 29 */
+/* line 62 */
 #navigation h2 {
   font-size: 34px;
 }
-/* line 30 */
+/* line 63 */
 #navigation h2, #navigation h3 {
   text-transform: uppercase;
 }
-/* line 31 */
+/* line 64 */
 #navigation h3 {
   font: 18px/20px "LeagueGothicRegular", Arial, sans-serif;
   text-align: left;
   color: #efefef;
 }
-/* line 32 */
+/* line 65 */
 #navigation ul {
   display: none;
   margin: 0;
   padding: 0;
 }
-/* line 33 */
+/* line 66 */
 #navigation li {
   list-style: none;
 }
-/* line 34 */
+/* line 67 */
 #navigation .divider {
   width: 20px;
   height: 3px;
   background: #efefef;
   margin-top: 15px;
 }
-/* line 35 */
+/* line 68 */
 #navigation p {
   font: 12px/16px "Courier New", courier, sans-serif;
   width: 150px;
   color: #ccc;
   margin-bottom: 25px;
 }
-/* line 36 */
+/* line 69 */
 #navigation a {
   color: #efefef;
   text-decoration: none;
 }
-/* line 37 */
+/* line 70 */
 #navigation:hover ul {
   display: block;
 }
 
-/* line 41 */
+/* line 74 */
 h1 {
   text-align: center;
   font: 80px/80px "LeagueGothicRegular", Arial, sans-serif;
   letter-spacing: 0;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin: 25px 0 0 0;
 }
 
-/* line 42 */
+/* line 75 */
 h3 {
   font: 13px/28px "Courier New", Courier, sans-serif;
   letter-spacing: 0;
@@ -215,68 +324,112 @@ h3 {
   margin: 0;
 }
 
-/* line 43 */
+/* line 76 */
 body {
   font-family: "Courier New", Courier, sans-serif;
 }
 
-/* line 45 */
+/* line 78 */
 .tweet {
+  text-shadow: 0 1px 8px #999;
   width: 50%;
-  font-size: 90px;
+  font-size: 60px;
+  margin: 50px;
   line-height: 60px;
   color: #fff;
+  position: relative;
+  z-index: 100;
 }
 
-/* line 46 */
+/* line 79 */
 .right {
   float: right;
 }
 
-/* line 48 */
+/* line 81 */
 #tweet_box {
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 49 */
+/* line 82 */
 #tweet-box-header {
   display: none;
 }
 
-/* line 53 */
+/* line 85 */
+#parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 86 */
 .parallax_elem {
   display: block;
   width: 100%;
-  height: 400px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
 }
 
-/* line 54 */
+/* line 94 */
 #bluestars {
-  background: url(/images/bluestars.png) top left no-repeat;
+  background: url(/images/bluestars.png) 0% 22% no-repeat;
 }
 
-/* line 55 */
+/* line 95 */
 #clipped_letters {
-  background: url(/images/clipped_letters.png) top left no-repeat;
+  background: url(/images/clipped_letters.png) 0% 30% no-repeat;
 }
 
-/* line 56 */
+/* line 96 */
 #clipped_stars {
-  background: url(/images/clipped_stars.png) top left no-repeat;
+  background: url(/images/clipped_stars.png) 0% 50% no-repeat;
 }
 
-/* line 57 */
+/* line 97 */
+#stitched_book_1 {
+  background: url(/images/stitched_book_1.png) 0 70% no-repeat;
+}
+
+/* line 98 */
+#stitched_book_2 {
+  background: url(/images/stitched_book_2.png) 0 90% no-repeat;
+}
+
+/* line 101 */
 #origami_lines {
+  position: fixed;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 300px;
   background: url(/images/origami_lines.png) top left no-repeat;
 }
 
-/* line 58 */
-#stitched_book_1 {
-  background: url(/images/stitched_book_1.png) top left no-repeat;
+/* line 103 */
+#footer {
+  display: block;
+  clear: both;
+  background: #333;
+  color: #fff;
+  overflow: hidden;
 }
-
-/* line 59 */
-#stitched_book_2 {
-  background: url(/images/stitched_book_2.png) top left no-repeat;
+/* line 105 */
+#footer #copyright {
+  float: left;
+}
+/* line 106 */
+#footer #credits {
+  float: right;
 }

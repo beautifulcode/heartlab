@@ -2,6 +2,15 @@
   
   App = Backbone.View.extend({
 
+    setup_parallax: function(){
+      // call the plugin
+      $('#bluestars').parallax({ "coeff":-0.65 });
+      $('#clipped_letters').parallax({ "coeff":1.15 });
+      $('#clipped_stars').parallax({ "coeff":1.15 });
+      $('#stiched_book_1').parallax({ "coeff":1.15 });
+          
+    },
+
     setup_navigation: function(){
       $('#navigation a').click(function(e){
           var page = e.target.href.split('#')[1];
@@ -29,6 +38,7 @@
     initialize: function () {
       this.setup_navigation();
       this.setup_tweetbox();
+      this.setup_parallax();
     }
   });
 

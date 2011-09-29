@@ -8,7 +8,13 @@
     <div id='global-container'>
       <div id='page-container'>
         <div id='content'>
-          <h1>Heartlab</h1>
+          <div class='column grid_6' id='title'>
+            <h2 class='subtitle'>heartlab presents:</h2>
+            <h2 class='title'>Re-surface</h2>
+          </div>
+          <div id='touchstones'>
+            <img src='/images/touchstones_logo.gif' />
+          </div>
           <div id='navigation'>
             <h2>Chapters</h2>
             <ul>
@@ -48,27 +54,38 @@
               <blockquote></blockquote>
               <cite></cite>
             </div>
+            <div id='parallax'>
+              <div class='parallax_elem' id='bluestars'></div>
+              <div class='parallax_elem' id='clipped_letters'></div>
+              <div class='parallax_elem' id='clipped_stars'></div>
+              <div class='parallax_elem' id='stiched_book_1'></div>
+              <div class='parallax_elem' id='stiched_book_2'></div>
+            </div>
           </div>
           <div class='chapter' id='chapter1'>
             <h1>What does your heart sound like?</h1>
             <h2>Use the form below to tweet what your heart sounds like.</h2>
             <div id='tweet_box'></div>
+            <div class='clear'></div>
           </div>
           <div class='chapter' id='chapter2'>
             <h1>Chapter 2</h1>
             <h3>Show Information</h3>
+            <div id='chapter_2_image_holder'>
+              <img id='chapter_2_image' src='/images/chapter_2_image.jpg' />
+            </div>
             <div class='left_side column grid_6'>
-              <p><em>Exhibition Dates</em></p>
-              
-              <p>August 27 to November 13, 2011<br/>
+              <h2 class='subtitle'>heartlab presents:</h2>
+              <h2 class='title'>Re-surface</h2>
+              <p><em>Exhibition Dates</em><br/>
+              August 27 to November 13, 2011<br/>
               Gallery B<br/>
               Touchstones Nelson:<br/>
               Museum of Art and History<br/>
               502 Vernon St., Nelson BC</p>
               
-              <p><em>HOURS OF OPERATION</em></p>
-              
-              <p>Visit Touchstones Nelson’s website<br/>
+              <p><em>HOURS OF OPERATION</em><br/>
+              Visit Touchstones Nelson’s website<br/>
               for current hours of operation</p>
               
               <p>Admission Fees<br/>
@@ -98,15 +115,21 @@
           <div class='chapter' id='chapter3'>
             <h1>Chapter Three</h1>
             <h3>Curatorial Statement</h3>
+            <div id='chapter3_image' style='text-align: center'>
+              <img src='/images/chapter_3_image.gif' />
+            </div>
             <div class='column grid_6' id='statement_1'>
               <p>heartlab is an ongoing collaborative project between artists Anita Levesque and Bradley Smith. Effectively a 'relationship laboratory', heartlab explores the connections between the visual arts and writing, as well as the dynamics between the two artists, who have been a couple for over 15 years.  As the two respond to one another’s creative vision, the essence of words and sound are translated into form and image and vice versa, inspiring a kind of synesthesia of the senses.</p>
             </div>
+            <div class='clear'></div>
             <div class='column grid_7' id='statement_2'>
               <p>The most prominent repeating element in Re-surface is the lower case “a”. Drawn, stamped and brought into radiating sculptural forms, it is the leading voice in their typographic landscape. The first letter in the alphabet, and one of the first utterances an infant makes, the sound “a” is perhaps the most simple and universal of human expressions.  This points to the core of heartlab's work: to express the initial impulse behind communication itself.</p>
             </div>
+            <div class='clear'></div>
             <div class='column grid_5' id='statement_3'>
               <p>heartlab’s elaborate dioramas are also rooted in landscape, exploring the place-based nature of human experience and expression. Language emerges from their constructed environment and is shaped by it. The playful, colourful landscapes are reminiscent of children's pop-up story books, and as the viewer moves in the space, they become a character in the narrative.</p>
             </div>
+            <div class='clear'></div>
             <div class='column grid_7' id='statement_4'>
               <p>An evolution of previous installations (Noticed Growth, Oxygen Art Centre, Nelson, 2009, and Resonance, Stride Art Gallery, Calgary, 2010), Re-surface reveals Smith and Levesque’s increasing comfort with their collaborative relationship. As they refine their sensitivity and responsiveness, their individually created elements begin to mimic one another. In the past, Smith ruled the domain of text, while Levesque was in charge of drawing. Now the lines have blurred as they share their artistic territory, even teaching one another how to work in the other’s style. Like the theatre game Mirror, in which partners take turns leading movements, heartlab’s two voices move from discord to harmony as they seek a unified voice.</p>
               <p>Levesque and Smith refer to the work itself as a third element in their collaboration, as it defines their parameters and provides a feedback system for their creative impulses. It seems fitting that at this time the couple is expecting a child, bringing a third voice to the collaborative work of heartlab.</p>
@@ -114,6 +137,7 @@
             </div>
           </div>
         </div>
+        <div id='origami_lines'></div>
         <div id='footer'>
           <p id='copyright'>
             ©2011-2012 heartlab. All Rights Reserved.
@@ -122,30 +146,25 @@
             Photography: Jeremy Addington
           </p>
         </div>
-        <div id='parallax'>
-          <div class='parallax_elem' id='bluestars'></div>
-          <div class='parallax_elem' id='clipped_letters'></div>
-          <div class='parallax_elem' id='clipped_stars'></div>
-          <div class='parallax_elem' id='origami_lines'></div>
-          <div class='parallax_elem' id='stiched_book_1'></div>
-          <div class='parallax_elem' id='stiched_book_2'></div>
-        </div>
       </div>
     </div>
     <script language="javascript" src="/js/support/jquery-1.6.4.js" type="text/javascript"></script>
     <script language="javascript" src="/js/support/underscore.js" type="text/javascript"></script><script language="javascript" src="/js/support/backbone.js" type="text/javascript"></script>
+    <script language="javascript" src="/js/support/parallax.js" type="text/javascript"></script>
     <script language="javascript" src="http://platform.twitter.com/anywhere.js?id=YOUR_API_KEY&v=1" type="text/javascript"></script>
     <script type='text/javascript'>
       //<![CDATA[
         var tweet_elems = $('.tweet');
         function twitterCallback(data){
-          _.each(data, function(tweet,i){
+          _.each(data.results, function(tweet,i){
+          if(tweet_elems[i]){
             tweet_elems[i].innerHTML = tweet.text;
+            }
           });
         }
       //]]>
     </script>
-    <script language="javascript" src="http://twitter.com/statuses/user_timeline/aplus.json?callback=twitterCallback&count=4" type="text/javascript"></script>
+    <script language="javascript" src="http://search.twitter.com/search.json?q=%23heartlab&callback=twitterCallback&count=4" type="text/javascript"></script>
     <script language="javascript" src="/js/app.js" type="text/javascript"></script>
   </body>
 </html>
