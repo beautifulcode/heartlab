@@ -1,5 +1,7 @@
 /* line 1 */
 body {
+  margin: 0;
+  padding: 0;
   background: #E9EAE4;
 }
 
@@ -158,7 +160,7 @@ h2.title {
 #chapter0 {
   background: #e9eae4 url(/images/chapter_0_bg.jpg) bottom left;
   position: relative;
-  padding-top: 50px;
+  padding-top: 60px;
   overflow: hidden;
 }
 
@@ -211,7 +213,7 @@ h2.title {
 #chapter3 h1 {
   margin-top: 45px;
 }
-/* line 44 */
+/* line 45 */
 #chapter3 #statement_1 {
   margin-bottom: 256px;
   background: #fff;
@@ -222,20 +224,20 @@ h2.title {
   margin-top: 100px;
   display: none;
 }
-/* line 45 */
+/* line 46 */
 #chapter3 #statement_2 {
   margin: 100px 0 0 100px;
 }
-/* line 46 */
+/* line 47 */
 #chapter3 #statement_3 {
   margin: 0 0 0 50px;
 }
-/* line 47 */
+/* line 48 */
 #chapter3 #statement_4 {
   margin: 0 0 0 100px;
 }
 
-/* line 50 */
+/* line 51 */
 #touchstones {
   position: fixed;
   top: 100px;
@@ -244,7 +246,7 @@ h2.title {
   z-index: 50;
 }
 
-/* line 52 */
+/* line 53 */
 #navigation {
   font: 30px/38px "LeagueGothicRegular", Arial, sans-serif;
   letter-spacing: 0;
@@ -259,55 +261,55 @@ h2.title {
   padding-right: 50px;
   color: #efefef;
 }
-/* line 62 */
+/* line 63 */
 #navigation h2 {
   font-size: 34px;
 }
-/* line 63 */
+/* line 64 */
 #navigation h2, #navigation h3 {
   text-transform: uppercase;
 }
-/* line 64 */
+/* line 65 */
 #navigation h3 {
   font: 18px/20px "LeagueGothicRegular", Arial, sans-serif;
   text-align: left;
   color: #efefef;
 }
-/* line 65 */
+/* line 66 */
 #navigation ul {
   display: none;
   margin: 0;
   padding: 0;
 }
-/* line 66 */
+/* line 67 */
 #navigation li {
   list-style: none;
 }
-/* line 67 */
+/* line 68 */
 #navigation .divider {
   width: 20px;
   height: 3px;
   background: #efefef;
   margin-top: 15px;
 }
-/* line 68 */
+/* line 69 */
 #navigation p {
   font: 12px/16px "Courier New", courier, sans-serif;
   width: 150px;
   color: #ccc;
   margin-bottom: 25px;
 }
-/* line 69 */
+/* line 70 */
 #navigation a {
   color: #efefef;
   text-decoration: none;
 }
-/* line 70 */
+/* line 71 */
 #navigation:hover ul {
   display: block;
 }
 
-/* line 74 */
+/* line 75 */
 h1 {
   text-align: center;
   font: 80px/80px "LeagueGothicRegular", Arial, sans-serif;
@@ -316,7 +318,7 @@ h1 {
   margin: 25px 0 0 0;
 }
 
-/* line 75 */
+/* line 76 */
 h3 {
   font: 13px/28px "Courier New", Courier, sans-serif;
   letter-spacing: 0;
@@ -324,12 +326,12 @@ h3 {
   margin: 0;
 }
 
-/* line 76 */
+/* line 77 */
 body {
   font-family: "Courier New", Courier, sans-serif;
 }
 
-/* line 78 */
+/* line 79 */
 .tweet {
   text-shadow: 0 1px 8px #999;
   width: 50%;
@@ -341,23 +343,23 @@ body {
   z-index: 100;
 }
 
-/* line 79 */
+/* line 80 */
 .right {
   float: right;
 }
 
-/* line 81 */
+/* line 82 */
 #tweet_box {
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 82 */
+/* line 83 */
 #tweet-box-header {
   display: none;
 }
 
-/* line 85 */
+/* line 86 */
 #parallax {
   position: absolute;
   top: 0;
@@ -367,7 +369,7 @@ body {
   width: 100%;
 }
 
-/* line 86 */
+/* line 87 */
 .parallax_elem {
   display: block;
   width: 100%;
@@ -381,32 +383,32 @@ body {
   -ms-transition: all 1s ease-in-out;
 }
 
-/* line 94 */
+/* line 95 */
 #bluestars {
   background: url(/images/bluestars.png) 0% 22% no-repeat;
 }
 
-/* line 95 */
+/* line 96 */
 #clipped_letters {
   background: url(/images/clipped_letters.png) 0% 30% no-repeat;
 }
 
-/* line 96 */
+/* line 97 */
 #clipped_stars {
   background: url(/images/clipped_stars.png) 0% 50% no-repeat;
 }
 
-/* line 97 */
+/* line 98 */
 #stitched_book_1 {
   background: url(/images/stitched_book_1.png) 0 70% no-repeat;
 }
 
-/* line 98 */
+/* line 99 */
 #stitched_book_2 {
   background: url(/images/stitched_book_2.png) 0 90% no-repeat;
 }
 
-/* line 101 */
+/* line 102 */
 #origami_lines {
   position: fixed;
   z-index: 0;
@@ -417,19 +419,20 @@ body {
   background: url(/images/origami_lines.png) top left no-repeat;
 }
 
-/* line 103 */
+/* line 104 */
 #footer {
   display: block;
   clear: both;
   background: #333;
   color: #fff;
+  padding: 0 10px;
   overflow: hidden;
 }
-/* line 105 */
+/* line 107 */
 #footer #copyright {
   float: left;
 }
-/* line 106 */
+/* line 108 */
 #footer #credits {
   float: right;
 }

@@ -1,4 +1,4 @@
-body{background: #E9EAE4;}
+body{margin: 0; padding: 0;background: #E9EAE4;}
 .grid_1 {width: 53px;}.grid_2 {width: 128px;}.grid_3 {width: 203px;}.grid_4 {width: 278px;}.grid_5 {width: 353px;}.grid_6 {width: 428px;}.grid_7 {width: 503px;}.grid_8 {width: 578px;}.grid_9 {width: 653px;}.grid_10 {width: 728px;}.grid_11 {width: 803px;}.grid_12 {width: 878px;}.grid_13 {width: 953px;}.grid_14 {width: 1028px;}.grid_15 {width: 1103px;}.grid_16 {width: 1178px;}.column {margin: 0 22px 0 0px; overflow: hidden; float: left; display: inline;}.row {width: 1200px; margin: 0 auto; overflow: hidden;}.row .row {margin: 0 -22px 0 -0px; width: auto; display: inline-block;}
 .clear{display: block; clear: both; height: 1px; }
 @font-face {
@@ -21,7 +21,7 @@ h2.title{color: #85BEC9; margin: 15px 0 70px -15px; font-weight: normal; font-si
 #chapter0{
   background: #E9EAE4 url(/images/chapter_0_bg.jpg) bottom left; 
   position: relative;
-  padding-top: 50px;
+  padding-top: 60px;
   overflow: hidden;
 }
 #chapter1{
@@ -41,6 +41,7 @@ h2.title{color: #85BEC9; margin: 15px 0 70px -15px; font-weight: normal; font-si
 #chapter3{
   background: url(/images/chapter_3_bg.jpg) top center  no-repeat;
  h1{margin-top: 45px;} 
+ h3{}
   #statement_1{margin-bottom: 256px; background: #fff; display: block; clear: both; opacity: 0.8; margin-left: 130px; margin-top: 100px; display: none;}
   #statement_2{margin: 100px 0 0 100px;}
   #statement_3{margin: 0 0 0 50px;}
@@ -102,6 +103,7 @@ body{font-family: "Courier New", Courier, sans-serif;}
 
 #footer{
   display: block; clear: both; background: #333; color: #fff;
+  padding: 0 10px;
   #copyright{float: left;}
   #credits{float: right;}
   overflow: hidden;
