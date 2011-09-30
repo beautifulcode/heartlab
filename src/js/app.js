@@ -7,7 +7,7 @@
       $('#bluestars').parallax({ "coeff":-0.65 });
       $('#clipped_letters').parallax({ "coeff":-0.90 });
       $('#clipped_stars').parallax({ "coeff":1 });
-      $('#stiched_book_2').parallax({ "coeff":1.25 });
+      $('#stitched_book_2').parallax({ "coeff":1.2 });
           
     },
 

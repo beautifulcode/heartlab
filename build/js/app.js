@@ -5,9 +5,9 @@
     setup_parallax: function(){
       // call the plugin
       $('#bluestars').parallax({ "coeff":-0.65 });
-      $('#clipped_letters').parallax({ "coeff":1.15 });
-      $('#clipped_stars').parallax({ "coeff":1.15 });
-      $('#stiched_book_1').parallax({ "coeff":1.15 });
+      $('#clipped_letters').parallax({ "coeff":-0.90 });
+      $('#clipped_stars').parallax({ "coeff":1 });
+      $('#stitched_book_2').parallax({ "coeff":1.2 });
           
     },
 
