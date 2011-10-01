@@ -138,10 +138,16 @@ p {
   z-index: 140;
   padding-left: 100px;
   height: 160px;
+  width: 400px;
   overflow: visible;
 }
 
 /* line 17 */
+#subtitle {
+  width: 400px;
+}
+
+/* line 18 */
 h2.subtitle {
   font-weight: normal;
   margin-bottom: 0;
@@ -149,7 +155,7 @@ h2.subtitle {
   color: #444;
 }
 
-/* line 18 */
+/* line 19 */
 h2.title {
   font-weight: normal;
   color: #85BEC9;
@@ -159,7 +165,7 @@ h2.title {
   line-height: 20px;
 }
 
-/* line 20 */
+/* line 21 */
 .chapter {
   color: #333;
   background: url(/images/background.gif) top left repeat;
@@ -169,13 +175,13 @@ h2.title {
   padding-top: 5px;
 }
 
-/* line 21 */
+/* line 22 */
 #chapter0 {
   position: relative;
   overflow: hidden;
   height: 1700px;
 }
-/* line 27 */
+/* line 28 */
 #chapter0 #stitched_book_1 {
   position: absolute;
   top: 30%;
@@ -189,72 +195,72 @@ h2.title {
   background: url(/images/stitched_book_1.png) 0 0 no-repeat;
 }
 
-/* line 30 */
+/* line 31 */
 #chapter1 #typewriter {
   background: url(/images/typewriter.jpg) top center no-repeat;
   height: 965px;
 }
-/* line 31 */
+/* line 32 */
 #chapter1 h2 {
   text-align: center;
   font-size: 12px;
 }
 
-/* line 35 */
+/* line 36 */
 #chapter2 #chapter2_content {
   width: 1280px;
   margin: 0 auto;
   overflow: hidden;
 }
-/* line 36 */
+/* line 37 */
 #chapter2 .left_side {
   margin-top: 39px;
   margin-left: 130px;
   overflow: visible;
 }
-/* line 37 */
+/* line 38 */
 #chapter2 .right_side {
   margin-top: 80px;
 }
-/* line 38 */
+/* line 39 */
 #chapter2 h1 {
   margin-top: 50px;
 }
-/* line 39 */
+/* line 40 */
 #chapter2 p em {
   text-transform: uppercase;
   font-weight: bold;
   font-style: normal;
 }
 
-/* line 42 */
+/* line 43 */
 #chapter_2_image_holder {
   text-align: center;
   margin-top: 30px;
 }
 
-/* line 44 */
+/* line 45 */
 #chapter3 {
   background: url(/images/chapter_3_bg.jpg) top center no-repeat;
 }
-/* line 46 */
+/* line 47 */
 #chapter3 #chapter3_image {
   margin-top: 45px;
 }
-/* line 47 */
+/* line 48 */
 #chapter3 h1 {
   margin-top: 45px;
 }
-/* line 48 */
+/* line 49 */
 #chapter3 h2 {
   font-weight: normal;
 }
-/* line 50 */
+/* line 51 */
 #chapter3 .statements {
   max-width: 1280px;
   margin: 0 auto;
 }
-/* line 51 */
+/* line 52 */
 #chapter3 #statement_1 {
   margin-bottom: 256px;
   background: #fff;
@@ -265,21 +271,21 @@ h2.title {
   margin-top: 100px;
   display: none;
 }
-/* line 52 */
+/* line 53 */
 #chapter3 #statement_2 {
   margin: 60px 0 0 100px;
 }
-/* line 53 */
+/* line 54 */
 #chapter3 #statement_3 {
   margin: 10px 0 0 50px;
   width: 325px;
 }
-/* line 54 */
+/* line 55 */
 #chapter3 #statement_4 {
   margin: 0 0 0 100px;
 }
 
-/* line 57 */
+/* line 58 */
 #touchstones {
   position: fixed;
   top: 100px;
@@ -288,7 +294,7 @@ h2.title {
   z-index: 50;
 }
 
-/* line 59 */
+/* line 60 */
 #navigation {
   font: 30px/38px "LeagueGothicRegular", Arial, sans-serif;
   letter-spacing: 0;
@@ -296,13 +302,12 @@ h2.title {
   top: 0;
   right: 0;
   background: #262825 url(/images/nav_background_texture.png) top left repeat;
-  z-index: 120;
+  z-index: 140;
   width: 180px;
   margin-right: 155px;
-  padding-left: 20px;
   color: #efefef;
 }
-/* line 60 */
+/* line 61 */
 #navigation h2 {
   background: url(/images/nav_arrow.png) 140px 5px no-repeat;
 }
@@ -311,6 +316,7 @@ h2.title {
   font-size: 34px;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-left: 20px;
 }
 /* line 70 */
 #navigation h2, #navigation h3 {
@@ -329,6 +335,7 @@ h2.title {
   padding: 0;
   padding-top: 20px;
   padding-right: 50px;
+  padding-left: 20px;
 }
 /* line 73 */
 #navigation li {
@@ -480,14 +487,18 @@ body {
 #footer {
   display: block;
   clear: both;
-  background: #333;
-  color: #fff;
-  padding: 0 10px;
+  background: #DEDDD9;
+  color: #666;
   overflow: hidden;
+}
+/* line 115 */
+#footer #footer_content {
+  width: 1180px;
+  margin: 0 auto;
 }
 /* line 116 */
 #footer p {
-  color: #fff;
+  color: #666;
 }
 /* line 117 */
 #footer #copyright {
