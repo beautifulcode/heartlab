@@ -16,7 +16,10 @@
       function twitterCallback(data){
         _.each(data.results, function(tweet,i){
         if(tweet_elems[i]){
-          tweet_elems[i].innerHTML = tweet.text;
+          var quote = $(tweet_elems[i]).children()[0];
+          quote.innerHTML = tweet.text;
+          var cite = $(tweet_elems[i]).children()[1];
+          cite.innerHTML = "tweeted by " +tweet.from_user;
           }
         });
       }

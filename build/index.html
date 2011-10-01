@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Heartlab</title>
-    <link href="css/app.css" media="all" rel="stylesheet" type="text/css"/><link href="css/tweetbox.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/css/app.css" media="all" rel="stylesheet" type="text/css"/><link href="/css/tweetbox.css" media="all" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <div id='content'>
@@ -74,42 +74,44 @@
         <div id='chapter_2_image_holder'>
           <img id='chapter_2_image' src='/images/chapter_2_image.jpg' />
         </div>
-        <div class='left_side column grid_6'>
-          <h2 class='subtitle'>heartlab presents:</h2>
-          <h2 class='title'>Re-surface</h2>
-          <p><em>Exhibition Dates</em><br/>
-          August 27 to November 13, 2011<br/>
-          Gallery B<br/>
-          Touchstones Nelson:<br/>
-          Museum of Art and History<br/>
-          502 Vernon St., Nelson BC</p>
-          
-          <p><em>HOURS OF OPERATION</em><br/>
-          Visit Touchstones Nelson's website<br/>
-          for current hours of operation</p>
-          
-          <p>Admission Fees<br/>
-          Members: free<br/>
-          Adult: $8.00<br/>
-          Senior (over 60): $6.00<br/>
-          Student: $6.00<br/>
-          Family: $22.00<br/>
-          Youth (7–18): $4.00<br/>
-          Child: free</p>
-          
-          <p>Admission is by donation<br/>
-          Thursdays 5 to 8 pm.</p>
-        </div>
-        <div class='right_side column grid_9'>
-          <p><em>Artist Statement</em></p>
-          
-          <p>Like making perfume, we strive to distill our sensorial surroundings into beautifully abstracted landscapes. Working collaboratively, we respond, challenge, and build off of each other's ideas. Process-based, our work is created by being open and in honest relationship with our surroundings, our materials, and with each other. Moving towards the completion of an installation one decision at a time, we grapple with the question: What is the essence of this space, landscape, word, moment, etc?  This openness and genuine exploration of the moment lends itself to playfully childlike environments that the viewer enters and experiences - thus becoming a part of the moment and the installation itself.</p>
-          
-          <p><em>Synopsis</em></p>
-          
-          <p>Drawing on work originally created in direct response to the local geography/ecosystem of Calgary and area, Re-surface is a 3-Dimensional drawing/diorama that playfully represents the essence of words as sound and image as space by drawing upon the beauty of the Kootenay valley.</p>
-          
-          <p>Heartlab is a collaborative effort fusing the talents and vision of two artists - Anita Levesque and Bradley Smith. Combining text and visual imagery, the couple explore the dynamics between two distinct forms of communication, sometimes bridging the gap of both worlds, and in other instances creating a tension between the two. Heartlab places an emphasis on process and time-based projects. Utilizing various drawing materials, manual typewriter and block printing tools, the duo create multi-sensory, installation narratives reminiscent of illustrated story books.</p>
+        <div id='chapter2_content'>
+          <div class='left_side column grid_6'>
+            <h2 class='subtitle'>heartlab presents:</h2>
+            <h2 class='title'>Re-surface</h2>
+            <p><em>Exhibition Dates</em><br/>
+            August 27 to November 13, 2011<br/>
+            Gallery B<br/>
+            Touchstones Nelson:<br/>
+            Museum of Art and History<br/>
+            502 Vernon St., Nelson BC</p>
+            
+            <p><em>HOURS OF OPERATION</em><br/>
+            Visit Touchstones Nelson's website<br/>
+            for current hours of operation</p>
+            
+            <p>Admission Fees<br/>
+            Members: free<br/>
+            Adult: $8.00<br/>
+            Senior (over 60): $6.00<br/>
+            Student: $6.00<br/>
+            Family: $22.00<br/>
+            Youth (7–18): $4.00<br/>
+            Child: free</p>
+            
+            <p>Admission is by donation<br/>
+            Thursdays 5 to 8 pm.</p>
+          </div>
+          <div class='right_side column grid_9'>
+            <p><em>Artist Statement</em></p>
+            
+            <p>Like making perfume, we strive to distill our sensorial surroundings into beautifully abstracted landscapes. Working collaboratively, we respond, challenge, and build off of each other's ideas. Process-based, our work is created by being open and in honest relationship with our surroundings, our materials, and with each other. Moving towards the completion of an installation one decision at a time, we grapple with the question: What is the essence of this space, landscape, word, moment, etc?  This openness and genuine exploration of the moment lends itself to playfully childlike environments that the viewer enters and experiences - thus becoming a part of the moment and the installation itself.</p>
+            
+            <p><em>Synopsis</em></p>
+            
+            <p>Drawing on work originally created in direct response to the local geography/ecosystem of Calgary and area, Re-surface is a 3-Dimensional drawing/diorama that playfully represents the essence of words as sound and image as space by drawing upon the beauty of the Kootenay valley.</p>
+            
+            <p>Heartlab is a collaborative effort fusing the talents and vision of two artists - Anita Levesque and Bradley Smith. Combining text and visual imagery, the couple explore the dynamics between two distinct forms of communication, sometimes bridging the gap of both worlds, and in other instances creating a tension between the two. Heartlab places an emphasis on process and time-based projects. Utilizing various drawing materials, manual typewriter and block printing tools, the duo create multi-sensory, installation narratives reminiscent of illustrated story books.</p>
+          </div>
         </div>
       </div>
       <div class='chapter' id='chapter3'>
@@ -150,9 +152,9 @@
         Photography: Jeremy Addington
       </p>
     </div>
-    <script language="javascript" src="js/support/jquery-1.6.4.js" type="text/javascript"></script>
-    <script language="javascript" src="js/support/underscore.js" type="text/javascript"></script><script language="javascript" src="js/support/backbone.js" type="text/javascript"></script>
-    <script language="javascript" src="js/support/parallax.js" type="text/javascript"></script>
+    <script language="javascript" src="/js/support/jquery-1.6.4.js" type="text/javascript"></script>
+    <script language="javascript" src="/js/support/underscore.js" type="text/javascript"></script><script language="javascript" src="/js/support/backbone.js" type="text/javascript"></script>
+    <script language="javascript" src="/js/support/parallax.js" type="text/javascript"></script>
     <script language="javascript" src="http://platform.twitter.com/anywhere.js?id=YOUR_API_KEY&v=1" type="text/javascript"></script>
     <script type='text/javascript'>
       //<![CDATA[
@@ -160,13 +162,16 @@
         function twitterCallback(data){
           _.each(data.results, function(tweet,i){
           if(tweet_elems[i]){
-            tweet_elems[i].innerHTML = tweet.text;
+            var quote = $(tweet_elems[i]).children()[0];
+            quote.innerHTML = tweet.text;
+            var cite = $(tweet_elems[i]).children()[1];
+            cite.innerHTML = "tweeted by " +tweet.from_user;
             }
           });
         }
       //]]>
     </script>
     <script language="javascript" src="http://search.twitter.com/search.json?q=%23heartlab&callback=twitterCallback&count=4" type="text/javascript"></script>
-    <script language="javascript" src="js/app.js" type="text/javascript"></script>
+    <script language="javascript" src="/js/app.js" type="text/javascript"></script>
   </body>
 </html>

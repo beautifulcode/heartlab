@@ -1,4 +1,4 @@
-/* line 1, ./src/css/app.scss */
+/* line 1 */
 body {
   color: #222;
   font: 14px/18.62px;
@@ -8,87 +8,87 @@ body {
   background: #E9EAE4;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_1 {
   width: 53px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_2 {
   width: 128px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_3 {
   width: 203px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_4 {
   width: 278px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_5 {
   width: 353px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_6 {
   width: 428px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_7 {
   width: 503px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_8 {
   width: 578px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_9 {
   width: 653px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_10 {
   width: 728px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_11 {
   width: 803px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_12 {
   width: 878px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_13 {
   width: 953px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_14 {
   width: 1028px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_15 {
   width: 1103px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .grid_16 {
   width: 1178px;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .column {
   margin: 0 22px 0 0px;
   overflow: hidden;
@@ -96,21 +96,21 @@ body {
   display: inline;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .row {
   width: 1200px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-/* line 2, ./src/css/app.scss */
+/* line 2 */
 .row .row {
   margin: 0 -22px 0 0px;
   width: auto;
   display: inline-block;
 }
 
-/* line 3, ./src/css/app.scss */
+/* line 3 */
 .clear {
   display: block;
   clear: both;
@@ -125,14 +125,14 @@ body {
   font-style: normal;
 }
 
-/* line 15, ./src/css/app.scss */
+/* line 15 */
 p {
   font-size: 14px;
   line-height: 18.62px;
   color: #222;
 }
 
-/* line 16, ./src/css/app.scss */
+/* line 16 */
 #title {
   position: absolute;
   top: 0;
@@ -142,7 +142,7 @@ p {
   overflow: visible;
 }
 
-/* line 17, ./src/css/app.scss */
+/* line 17 */
 h2.subtitle {
   font-weight: normal;
   margin-bottom: 0;
@@ -150,7 +150,7 @@ h2.subtitle {
   color: #444;
 }
 
-/* line 18, ./src/css/app.scss */
+/* line 18 */
 h2.title {
   font-weight: normal;
   color: #85BEC9;
@@ -160,7 +160,7 @@ h2.title {
   line-height: 20px;
 }
 
-/* line 20, ./src/css/app.scss */
+/* line 20 */
 .chapter {
   color: #333;
   background: url(/images/background.gif) top left repeat;
@@ -170,17 +170,17 @@ h2.title {
   padding-top: 5px;
 }
 
-/* line 21, ./src/css/app.scss */
+/* line 21 */
 #chapter0 {
   position: relative;
-  padding-top: 60px;
+  padding-top: 160px;
   overflow: hidden;
   height: 1700px;
 }
-/* line 28, ./src/css/app.scss */
+/* line 28 */
 #chapter0 #stitched_book_1 {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   margin-left: -700px;
   margin-top: -500px;
@@ -191,66 +191,72 @@ h2.title {
   background: url(/images/stitched_book_1.png) 0 0 no-repeat;
 }
 
-/* line 31, ./src/css/app.scss */
+/* line 31 */
 #chapter1 #typewriter {
-  background: url(/images/chapter_1.jpg) top center no-repeat;
+  background: url(/images/typewriter.jpg) top center no-repeat;
   height: 965px;
 }
-/* line 32, ./src/css/app.scss */
+/* line 32 */
 #chapter1 h2 {
   text-align: center;
   font-size: 12px;
 }
 
-/* line 36, ./src/css/app.scss */
+/* line 36 */
+#chapter2 #chapter2_content {
+  width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 37 */
 #chapter2 .left_side {
   margin-top: 39px;
   margin-left: 130px;
   overflow: visible;
 }
-/* line 37, ./src/css/app.scss */
+/* line 38 */
 #chapter2 .right_side {
   margin-top: 80px;
 }
-/* line 38, ./src/css/app.scss */
+/* line 39 */
 #chapter2 h1 {
   margin-top: 50px;
 }
-/* line 39, ./src/css/app.scss */
+/* line 40 */
 #chapter2 p em {
   text-transform: uppercase;
   font-weight: bold;
   font-style: normal;
 }
 
-/* line 42, ./src/css/app.scss */
+/* line 43 */
 #chapter_2_image_holder {
   text-align: center;
   margin-top: 30px;
 }
 
-/* line 44, ./src/css/app.scss */
+/* line 45 */
 #chapter3 {
   background: url(/images/chapter_3_bg.jpg) top center no-repeat;
 }
-/* line 46, ./src/css/app.scss */
+/* line 47 */
 #chapter3 #chapter3_image {
   margin-top: 45px;
 }
-/* line 47, ./src/css/app.scss */
+/* line 48 */
 #chapter3 h1 {
   margin-top: 45px;
 }
-/* line 48, ./src/css/app.scss */
+/* line 49 */
 #chapter3 h2 {
   font-weight: normal;
 }
-/* line 50, ./src/css/app.scss */
+/* line 51 */
 #chapter3 .statements {
   max-width: 1280px;
   margin: 0 auto;
 }
-/* line 51, ./src/css/app.scss */
+/* line 52 */
 #chapter3 #statement_1 {
   margin-bottom: 256px;
   background: #fff;
@@ -261,21 +267,21 @@ h2.title {
   margin-top: 100px;
   display: none;
 }
-/* line 52, ./src/css/app.scss */
+/* line 53 */
 #chapter3 #statement_2 {
   margin: 60px 0 0 100px;
 }
-/* line 53, ./src/css/app.scss */
+/* line 54 */
 #chapter3 #statement_3 {
   margin: 10px 0 0 50px;
   width: 325px;
 }
-/* line 54, ./src/css/app.scss */
+/* line 55 */
 #chapter3 #statement_4 {
   margin: 0 0 0 100px;
 }
 
-/* line 57, ./src/css/app.scss */
+/* line 58 */
 #touchstones {
   position: fixed;
   top: 100px;
@@ -284,7 +290,7 @@ h2.title {
   z-index: 50;
 }
 
-/* line 59, ./src/css/app.scss */
+/* line 60 */
 #navigation {
   font: 30px/38px "LeagueGothicRegular", Arial, sans-serif;
   letter-spacing: 0;
@@ -298,27 +304,27 @@ h2.title {
   padding-left: 20px;
   color: #efefef;
 }
-/* line 60, ./src/css/app.scss */
+/* line 61 */
 #navigation h2 {
   background: url(/images/nav_arrow.png) 140px 5px no-repeat;
 }
-/* line 69, ./src/css/app.scss */
+/* line 70 */
 #navigation h2 {
   font-size: 34px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 70, ./src/css/app.scss */
+/* line 71 */
 #navigation h2, #navigation h3 {
   text-transform: uppercase;
 }
-/* line 71, ./src/css/app.scss */
+/* line 72 */
 #navigation h3 {
   font: 18px/20px "LeagueGothicRegular", Arial, sans-serif;
   text-align: left;
   color: #efefef;
 }
-/* line 72, ./src/css/app.scss */
+/* line 73 */
 #navigation ul {
   display: none;
   margin: 0;
@@ -326,35 +332,35 @@ h2.title {
   padding-top: 20px;
   padding-right: 50px;
 }
-/* line 73, ./src/css/app.scss */
+/* line 74 */
 #navigation li {
   list-style: none;
 }
-/* line 74, ./src/css/app.scss */
+/* line 75 */
 #navigation .divider {
   width: 20px;
   height: 3px;
   background: #efefef;
   margin-top: 15px;
 }
-/* line 75, ./src/css/app.scss */
+/* line 76 */
 #navigation p {
   font: 12px/16px "Courier New", courier, sans-serif;
   width: 150px;
   color: #ccc;
   margin-bottom: 25px;
 }
-/* line 76, ./src/css/app.scss */
+/* line 77 */
 #navigation a {
   color: #efefef;
   text-decoration: none;
 }
-/* line 77, ./src/css/app.scss */
+/* line 78 */
 #navigation:hover ul {
   display: block;
 }
 
-/* line 81, ./src/css/app.scss */
+/* line 82 */
 h1 {
   text-align: center;
   font: 80px/80px "LeagueGothicRegular", Arial, sans-serif;
@@ -363,7 +369,7 @@ h1 {
   margin: 25px 0 0 0;
 }
 
-/* line 82, ./src/css/app.scss */
+/* line 83 */
 h3 {
   font: 13px/28px "Courier New", Courier, sans-serif;
   letter-spacing: 0;
@@ -371,12 +377,12 @@ h3 {
   margin: 0;
 }
 
-/* line 83, ./src/css/app.scss */
+/* line 84 */
 body {
   font-family: "Courier New", Courier, sans-serif;
 }
 
-/* line 85, ./src/css/app.scss */
+/* line 86 */
 .tweet {
   text-shadow: 0 1px 8px #999;
   width: 50%;
@@ -387,25 +393,35 @@ body {
   position: relative;
   z-index: 100;
 }
+/* line 88 */
+.tweet blockquote {
+  margin: 0;
+}
+/* line 89 */
+.tweet cite {
+  font-size: 18px;
+  color: #222;
+}
 
-/* line 86, ./src/css/app.scss */
+/* line 91 */
 .right {
   float: right;
   clear: both;
 }
 
-/* line 88, ./src/css/app.scss */
+/* line 93 */
 #tweet_box {
   margin: 0 auto;
   text-align: center;
+  margin-top: 43px;
 }
 
-/* line 89, ./src/css/app.scss */
+/* line 94 */
 #tweet-box-header {
   display: none;
 }
 
-/* line 92, ./src/css/app.scss */
+/* line 97 */
 #parallax {
   position: absolute;
   top: 0;
@@ -415,7 +431,7 @@ body {
   width: 100%;
 }
 
-/* line 93, ./src/css/app.scss */
+/* line 98 */
 .parallax_elem {
   display: block;
   width: 100%;
@@ -425,31 +441,32 @@ body {
   left: 0;
 }
 
-/* line 101, ./src/css/app.scss */
+/* line 106 */
 #bluestars {
   background: url(/images/bluestars.png) 0% 22% no-repeat;
+  opacity: 0.6;
   z-index: 2;
 }
 
-/* line 102, ./src/css/app.scss */
+/* line 107 */
 #clipped_letters {
-  background: url(/images/clipped_letters.png) 0% 30% no-repeat;
+  background: url(/images/clipped_letters.png) 0% 45% no-repeat;
   z-index: 50;
 }
 
-/* line 103, ./src/css/app.scss */
+/* line 108 */
 #clipped_stars {
-  background: url(/images/clipped_stars.png) 0% 50% no-repeat;
+  background: url(/images/clipped_stars.png) 0% 70% no-repeat;
   z-index: 30;
 }
 
-/* line 104, ./src/css/app.scss */
+/* line 109 */
 #stitched_book_2 {
   background: url(/images/stitched_book_2.png) 0 90% no-repeat;
   z-index: 10;
 }
 
-/* line 107, ./src/css/app.scss */
+/* line 112 */
 #origami_lines {
   position: fixed;
   z-index: 0;
@@ -460,7 +477,7 @@ body {
   background: url(/images/origami_lines.png) top left no-repeat;
 }
 
-/* line 109, ./src/css/app.scss */
+/* line 114 */
 #footer {
   display: block;
   clear: both;
@@ -469,11 +486,15 @@ body {
   padding: 0 10px;
   overflow: hidden;
 }
-/* line 112, ./src/css/app.scss */
+/* line 117 */
+#footer p {
+  color: #fff;
+}
+/* line 118 */
 #footer #copyright {
   float: left;
 }
-/* line 113, ./src/css/app.scss */
+/* line 119 */
 #footer #credits {
   float: right;
 }
