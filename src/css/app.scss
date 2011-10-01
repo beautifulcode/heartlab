@@ -13,7 +13,7 @@ body{color: #222; font: 14px/18.62px; background: #F8F7F2 url(/images/body_bg_te
 
 }
 p{font-size: 14px; line-height: 18.62px; color: #222;}
-#title{position: absolute; top: 0; left: 0; z-index: 140; margin-left: 100px; overflow: visible;}
+#title{position: relative; z-index: 140; padding-left: 100px; height: 160px; overflow: visible;}
 h2.subtitle{font-weight: normal; margin-bottom: 0; line-height: 25px; color: #444;}
 h2.title{font-weight: normal; color: #85BEC9; margin: 15px 0 70px -15px; font-weight: normal; font-size: 50px; line-height: 20px;}
 
@@ -21,7 +21,6 @@ h2.title{font-weight: normal; color: #85BEC9; margin: 15px 0 70px -15px; font-we
 #chapter0{
   // background: #E9EAE4 url(/images/chapter_0_bg.jpg) bottom left; 
   position: relative;
-  padding-top: 160px;
   overflow: hidden;
   height: 1700px;
 
@@ -86,7 +85,7 @@ body{font-family: "Courier New", Courier, sans-serif;}
 .tweet{
   text-shadow: 0 1px 8px #999; width: 50%; font-size: 80px; margin: 50px; line-height: 60px; color: #fff; position: relative; z-index: 100;
   blockquote{margin: 0;}
-  cite{font-size: 18px; color: #222;}
+  cite{font-size: 14px; color: #555; font-style: normal;}
 }
 .right{float: right; clear: both;}
 
