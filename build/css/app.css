@@ -467,7 +467,7 @@ body {
 
 /* line 109 */
 #clipped_stars {
-  background: url(/images/clipped_stars.png) 0% 70% no-repeat;
+  background: url(/images/clipped_stars.png) 0% 10% no-repeat;
   z-index: 30;
 }
 
