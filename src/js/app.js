@@ -24,7 +24,7 @@
       twttr.anywhere(function (T) {
 
         T("#tweet_box").tweetBox({
-          label: "Use the form below to tweet what your heart sounds like.<link href='http://localhost:3000/css/tweetbox.css' rel='stylesheet' />",
+          label: "Use the form below to tweet what your heart sounds like.<link href='http://www.touchstonesnelson.ca/exhibitions/heartlab/css/tweetbox.css' rel='stylesheet' />",
           height: 100,
           width: 400,
           defaultContent: ""
