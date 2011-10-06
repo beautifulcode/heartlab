@@ -27,7 +27,11 @@
           label: "Use the form below to tweet what your heart sounds like.<link href='http://www.touchstonesnelson.ca/exhibitions/heartlab/css/tweetbox.css' rel='stylesheet' />",
           height: 100,
           width: 400,
-          defaultContent: ""
+          defaultContent: "",
+          onTweet: function(plain, html){  
+            window.location.reload();
+          }  
+                
         });
 
       });
